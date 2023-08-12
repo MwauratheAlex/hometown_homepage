@@ -1,0 +1,119 @@
+@font-face {
+    font-family: batman;
+    src: url("fonts/batmfa__.ttf");
+}
+
+body {
+    font-family: batman;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #cfc5bd;
+    letter-spacing: .1em;
+    text-shadow: 0 0 10px black;
+    line-height: 1.5em;
+    
+}
+
+h3 {
+    font-size: 2.6em;
+    margin-bottom: 50px;
+    letter-spacing: .1em;
+    color: #2D221B;
+    text-shadow: 0 0 5px white;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+}
+
+.hero {
+    color: #cfc5bd;
+    background-image: url("images/gotham.jpg");
+    background-size: contain;
+    padding: 200px;
+    margin-bottom: 0;
+    text-shadow: 0 0 8px black;
+}
+
+.activities {
+    background: #dda15e;
+    margin: 0;
+    padding: 100px;
+    color: #2D221B;
+}
+
+p {
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    text-shadow: white;
+}
+
+.activities-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity-item {
+    margin: 0 20px;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background: #2D221B;
+    width: 80%;
+    margin: 40px auto 80px auto;
+    border-bottom: 20px solid #CAAD95;
+    border-radius: 16px;
+    color: #bd915e;
+    text-shadow: 0 0 4px black;
+
+}
+
+.guide img {
+    border-radius: 12px;
+    width: 30%;
+    height: 100%;
+}
+
+.guide p {
+    color: #a27746;
+    font-size: 1.5em;
+    text-shadow: 0 0 4px black;
+}
+
+.guide h3, h4 {
+    color: #bd915e;
+    text-shadow: 0 0 4px black;
+}
+
+h4 {
+    color: rgb(217, 58, 0);
+    font-size: 1.8em;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.card-item {
+    margin-left: 16px;
+    padding: 20px;
+    width: 60%;
+}
